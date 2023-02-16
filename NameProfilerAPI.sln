@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameProfilerAPI.Core", "NameProfilerAPI.Core\NameProfilerAPI.Core.csproj", "{C48F76D4-4525-467F-A9FC-A007534AA4AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameProfilerAPI.Tests", "NameProfilerAPI.Tests\NameProfilerAPI.Tests.csproj", "{0EA6B16A-AE27-4F5E-B5D2-5C4E5C8A57BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C48F76D4-4525-467F-A9FC-A007534AA4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48F76D4-4525-467F-A9FC-A007534AA4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48F76D4-4525-467F-A9FC-A007534AA4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48F76D4-4525-467F-A9FC-A007534AA4AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA6B16A-AE27-4F5E-B5D2-5C4E5C8A57BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA6B16A-AE27-4F5E-B5D2-5C4E5C8A57BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA6B16A-AE27-4F5E-B5D2-5C4E5C8A57BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA6B16A-AE27-4F5E-B5D2-5C4E5C8A57BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D938463F-8300-444D-AAD9-F99E8A41C257}
+	EndGlobalSection
+EndGlobal
