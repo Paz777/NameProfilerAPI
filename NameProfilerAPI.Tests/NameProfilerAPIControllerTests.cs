@@ -1,6 +1,8 @@
-﻿namespace NameProfilerAPI.Tests;
+﻿using NUnit.Framework;
 
-public class Tests
+namespace NameProfilerAPI.Tests;
+
+public class NameProfilerAPIControllerTests
 {
     [SetUp]
     public void Setup()
