@@ -14,6 +14,15 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
     <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
+    <PackageReference Include="Moq" Version="4.18.4" />
+    <PackageReference Include="FluentAssertions" Version="6.10.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NameProfilerAPI.Core\NameProfilerAPI.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Moq" />
+    <None Remove="FluentAssertions" />
+  </ItemGroup>
 </Project>

@@ -11,10 +11,17 @@ namespace NameProfilerAPI.Core.Controllers
     [Route("Controller")]
     public class NameProfilerController : Controller
     {
+        INameProfilerService _nameProfilerService;
+
+        public NameProfilerController(INameProfilerService nameProfilerService)
+        {
+            _nameProfilerService = nameProfilerService;
+        }
+
         [HttpPost]
         public ActionResult<SoulPlanNumbers> ConvertNameToSoulPlanNumbers(string name)
         {
-            return new SoulPlanNumbers { WorldlyChallenges = "13 - 4" };
+            return _nameProfilerService.GenerateSoulPlanNumbers(name);
         }
     }
 }
